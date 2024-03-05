@@ -1,0 +1,26 @@
+.cart_card_root {
+    background: white;
+    border: 1px solid #cacaca;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+    box-shadow: 3px 2px 3px #cacaca;
+}
+
+.cart_card_deleteBTn {
+    color: red;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.clear_cart_btn {
+    border: 1px solid;
+    padding: 6px 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}

@@ -1,0 +1,60 @@
+.navbar_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+}
+
+.navlogo p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navLinks p,
+.navLinks_and p {
+    margin: 0 20px;
+}
+
+.navLinks_and p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navLinks p a,
+.navLinks_and p a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_root {
+    background: #c1cbd3;
+    padding: 16px 0;
+}
+
+.hamnurger_menu {
+    display: none;
+}
+
+.nav_drawer_main{
+    padding: 40px;
+}
+
+@media (max-width: 776px) {
+
+    .hamnurger_menu {
+        display: block;
+        margin-right: 40px;
+    }
+
+    .navLink {
+        display: none;
+    }
+
+    .home_products_main{
+        padding: 40px;
+    }
+}

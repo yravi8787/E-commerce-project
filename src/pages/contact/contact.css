@@ -1,0 +1,6 @@
+.contact_input, .contact_textarea{
+    width: 80%;
+    padding: 4px 10px;
+    margin-bottom: 16px;
+    outline: none;
+}

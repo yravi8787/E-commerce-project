@@ -1,0 +1,43 @@
+.home_cover {
+    width: 100%;
+}
+
+.home_cover img {
+    width: 100%;
+}
+
+.home_product_card {
+    background: white;
+    border: 1px solid #cacaca;
+    height: 100%;
+    cursor: pointer;
+}
+
+.home_prd_img img {
+    max-height: 300px;
+    height: auto;
+    width: 100%;
+}
+
+.home_prd_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.home_products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_products_main {
+    max-width: 850px;
+    width: 100%;
+}
+
+.home_prd_title{
+    padding: 20px 0;
+}
